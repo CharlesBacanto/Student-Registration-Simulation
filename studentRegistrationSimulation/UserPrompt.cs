@@ -7,9 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace studentRegistrationSimulation
-{
+{   
+    //UserPrompt Class is used for getting UserInputs
     public static class UserPrompt
-    {
+    {   
+        //Method for getting the population of the Student to be registered
         public static int studentCount()
         {
             int studentNum;
@@ -20,6 +22,7 @@ namespace studentRegistrationSimulation
             return studentNum;
         }
 
+        //Method for getting the First Name
         public static string studentfirstName()
         {
             string studentfirstName;
@@ -30,6 +33,7 @@ namespace studentRegistrationSimulation
             return studentfirstName;
         }
 
+        //Method for getting the Last Name
         public static string studentlastName()
         {
             string studentlastName;
@@ -40,6 +44,7 @@ namespace studentRegistrationSimulation
             return studentlastName;
         }
 
+        //Method for getting the Year
         public static int studentyear()
         {
             int studentyear;
@@ -50,6 +55,8 @@ namespace studentRegistrationSimulation
             return studentyear;
         }
 
+
+        //Method for getting the Course
         public static string course()
         {
             string studentcourse;
@@ -60,6 +67,7 @@ namespace studentRegistrationSimulation
             return studentcourse;
         }
 
+        //Method for getting the Section
         public static string studentsection()
         {
             string studentsection;
